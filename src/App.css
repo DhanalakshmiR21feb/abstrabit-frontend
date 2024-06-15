@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.title {
+  margin-left: 150px;
+  text-align: left;
+  padding: 0;
+}
+.dropDown {
+  width: 100px;
+  top: 50px;
+  height: 30px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +45,335 @@
   to {
     transform: rotate(360deg);
   }
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+}
+.section1 {
+  display: flex;
+  flex-direction: row;
+  margin: 0 90px;
+}
+.fdportfolio {
+  margin-left: 60px;
+  width: 398px;
+  height: 286px;
+  /* margin: 0 50px 0;
+  padding: 0 25px; */
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  opacity: 1;
+}
+.fdmaturity {
+  width: 822px;
+  height: 286px;
+  margin-left: 90px;
+  /* margin: 0 50px 0; */
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  opacity: 1;
+}
+.utkarsh {
+  /* position: relative; */
+  width: 398px;
+  height: 202px;
+  margin-left: 50px;
+  /* UI Properties */
+  background: #f8f0ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 4px solid #ffffff;
+  border-radius: 5px;
+  opacity: 1;
+}
+.bajaj {
+  /* Layout Properties */
+  width: 398px;
+  height: 202px;
+  margin-left: 50px;
+  /* UI Properties */
+  background: #eff6ff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 4px solid #ffffff;
+  border-radius: 5px;
+  opacity: 1;
+}
+span {
+  align-items: center;
+  color:black;
+}
+.flex-space {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+ul li {
+  list-style: none;
+}
+.chart {
+  top: 240px;
+  left: 82px;
+  width: 168px;
+  height: 168px;
+}
+.black-text {
+  text-align: left;
+  font: normal normal bold 14px/17px Apercu Pro;
+  letter-spacing: 0px;
+  color: #1a1b1e;
+  opacity: 1;
+}
+.grey-text {
+  text-align: left;
+  font: normal normal medium 14px/17px Apercu Pro;
+  letter-spacing: 0px;
+  color: #1a1b1e;
+  opacity: 0.6;
+}
+.utkarsh-btn {
+  width: 133px;
+  height: 42px;
+  /* UI Properties */
+  background: #520b8d 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
+  border-radius: 5px;
+  color: #ffffff;
+  opacity: 1;
+}
+.bajaj-btn {
+  width: 133px;
+  height: 42px;
+  /* UI Properties */
+  background: #0072bb 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
+  border-radius: 5px;
+  color: white;
+  opacity: 0.9;
+}
+.utkarsh-div {
+  width: 181px;
+  height: 35px;
+  margin: 10px;
+  /* UI Properties */
+  background: #efddff 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.91;
+}
+
+.bajaj-div{
+  width: 181px;
+  height: 35px;
+  margin: 10px;
+  /* UI Properties */
+  background: #cfe2f3 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.91;
+}
+.sriram-div{
+  width: 181px;
+  height: 35px;
+  margin: 10px;
+  /* UI Properties */
+  background: #d9e2eb 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.91;
+}
+.mahindra-div{
+  width: 181px;
+  height: 35px;
+  margin: 10px;
+  /* UI Properties */
+  background: #ecb9d4 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 0.91;
+}
+span{
+  width: 145px;
+height: 16px;
+/* UI Properties */
+text-align: left;
+font: normal normal normal 14px/17px Apercu Pro;
+letter-spacing: 0px;
+color: #1A1B1E;
+opacity: 1;
+}
+.sriram {
+  /* Layout Properties */
+  margin-left: 50px;
+  width: 398px;
+  height: 202px;
+  /* UI Properties */
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 4px solid #ffffff;
+  border-radius: 5px;
+  opacity: 1;
+  position: relative;
+}
+.sriram-btn {
+  width: 133px;
+  height: 42px;
+  background: #010101 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
+  border-radius: 5px;
+  color: white;
+  opacity: 1;
+}
+.mahindra {
+  /* Layout Properties */
+  margin-left: 50px;
+  width: 398px;
+  height: 202px;
+  /* UI Properties */
+  background: #ffefef 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 4px solid #ffffff;
+  border-radius: 5px;
+  opacity: 1;
+}
+.mahindra-btn {
+  width: 133px;
+  height: 42px;
+  /* UI Properties */
+  background: #ff0000 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
+  border-radius: 5px;
+  color: white;
+  opacity: 1;
+}
+.section2 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 90px 0;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.section3 {
+  display: flex;
+  flex-direction: row;
+  padding: 30px 90px 0;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+.section4 {
+  top: 518px;
+  left: 1058px;
+  width: 398px;
+  height: 725px;
+  padding: 0 3px 0;
+  margin-right: 50px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+}
+.section5 {
+  /* Layout Properties */
+  top: 930px;
+  left: 60px;
+  width: 822px;
+  height: 273px;
+  padding: 30px 151px;
+  /* UI Properties */
+  opacity: 1;
+}
+.getans {
+  /* Layout Properties */
+  top: 930px;
+  left: 60px;
+  width: 496px;
+  height: 20px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal medium 24px/30px Apercu Pro;
+  letter-spacing: 0px;
+  color: #1a1b1e;
+  opacity: 1;
+}
+.ans {
+  /* Layout Properties */
+  top: 968px;
+  left: 60px;
+  width: 148px;
+  height: 14px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 16px/20px Apercu Pro;
+  letter-spacing: 0px;
+  color: #1a1b1e;
+  opacity: 1;
+}
+.answerdiv {
+  /* Layout Properties */
+  top: 1009px;
+  left: 60px;
+  width: 257px;
+  height: 194px;
+  margin: 10px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px #0000000d;
+  border: 1px solid #ebebeb;
+  border-radius: 5px;
+  opacity: 1;
+}
+.rightNav {
+  /* Layout Properties */
+  width: 14px;
+  height: 24px;
+  /* UI Properties */
+  background: #000000 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.rightNav-div{
+  width: 352px;
+height: 183px;
+/* UI Properties */
+opacity: 1;
+}
+.answerdiv{
+  text-align: left;padding:20px;
+}
+.readmore{
+  text-align: left;
+text-decoration: underline;
+font: normal normal normal 14px/17px Apercu Pro;
+letter-spacing: 0px;
+color: #3B39D9;
+opacity: 1;
+}
+.date{
+
+width: 76px;
+height: 66px;
+/* UI Properties */
+background: #1A1B1E 0% 0% no-repeat padding-box;
+opacity: 0.05;
+}
+.day{
+  width: 47px;
+height: 48px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 40px/50px Apercu Pro;
+letter-spacing: 0px;
+color: #1A1B1E;
+opacity: 1;
 }
