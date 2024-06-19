@@ -5,7 +5,7 @@ import mahindra from "./mahindra.png";
 import utkarsh from "./utkarsh.png";
 import sriram from "./sriram.png";
 import bajaj_tick from "./bajaj_tick.png";
-import mahindra_tick from "./mahindra_tick.png"
+import mahindra_tick from "./mahindra_tick.png";
 import utkarsh_tick from "./utkarsh_tick.png";
 import sriram_tick from "./sriram_tick.png";
 import { Pie } from "react-chartjs-2";
@@ -81,10 +81,12 @@ const Home = () => {
             </div>
           </div>
           <div className="fdmaturity">
-           <div className="flexRow">
-            {/* <div><h3>FD Maturity Timeline</h3></div> */}
-            <div>
-              <TimeLineChart /></div></div> 
+            <div className="flexRow">
+              {/* <div><h3>FD Maturity Timeline</h3></div> */}
+              <div>
+                <TimeLineChart />
+              </div>
+            </div>
           </div>
         </div>
         <div>
@@ -181,23 +183,152 @@ const Home = () => {
             </div> */}
           </div>{" "}
           <div className="section4">
-            <div className="flexColumn">
-              <div className="rightnav-div">
-                <div className="flexColumn">
-                  <div> Video KYC</div>
-                  <div className="flexRow">
-                    <div className="grey-text">Scheduled on</div>
-                    <div className="black-text">Utkarsh SF bank FD Plan 2</div>
-                  </div>
-                  <div className="date"><div className="day">28</div></div>
+            <div className="flexRow right-container">
+              <div className="flexColumn">
+                <div className="right-sub-container">
+                  <b>Video Player</b>
                 </div>
-                Video KYC</div>
-              <div className="rightnav-div">Pending payment</div>
-              <div className="rightnav-div">Upcoming FD Maturity</div>
+                <div>
+                  <div className="flexRow">
+                    <div className="flexColumn right-sub-container">
+                      {" "}
+                      <div className="grey-text "> Scheduled on</div>{" "}
+                      <div className="grey-box">
+                        <div className="black-date right-sub-container">28</div>
+                        <div className="box black-text">Oct,2023</div>
+                      </div>
+                    </div>
+                    <div className="black-text">
+                      <div className="right-sub-container">Utkarsh SF Bank FD Plan 2</div>
+                      <div className="flexRow">
+                        {" "}
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Deposit Amt</div>
+                          <div className="black-text">Rs. 20,000</div>
+                        </div>
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Tenure</div>
+                          <div className="black-text">2 Years</div>
+                        </div>
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Interest Rate</div>
+                          <div className="black-text">9.10%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            
+                </div>
+                <div className="flexRow">
+                  <div>
+                    <input type="button" name="complete" value="Complete Now"  className="btn-blue right-sub-container"/>
+                  </div>
+                  <div>
+                    <input type="button" name="reschedule" value="Rescedule"  className="btn-white right-sub-container"/>
+                  </div>
+                </div>
+                <hr />
+              </div>
+            </div>
+            <div className="flexRow right-container">
+              {" "}
+              <div className="flexColumn">
+                <div>
+                  <b>Pending Payment</b>
+                </div>
+                <div>
+                  <div className="flexRow">
+                    <div className="flexColumn right-sub-container">
+                      {" "}
+                      <div className="grey-text"> Pay By</div>{" "}
+                      <div className="grey-box">
+                        <div className="black-date right-sub-container">30</div>
+                        <div className="box black-text">Oct,2023</div>
+                      </div>
+                    </div>
+                    <div className="black-text">
+                   <div className="right-sub-container">  Bajaj Finserv Corp FD 1</div>
+                      <div className="flexRow">
+                        {" "}
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Deposit Amt</div>
+                          <div className="black-text">Rs. 25,000</div>
+                        </div>
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Tenure</div>
+                          <div className="black-text">18 Years</div>
+                        </div>
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Interest Rate</div>
+                          <div className="black-text">8.10%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              
+                </div>
+                <div className="flexRow">
+                  <div>
+                    <input type="button" name="paynow" value="Pay Now" className="btn-blue right-sub-container"/>
+                  </div>
+                  <div>
+                    <input type="button" name="cancel" value="Cancel Application" className="btn-white right-sub-container"/>
+                  </div>
+                </div>
+                <hr />
+              </div>{" "}
+         
+            </div>
+            <div className="flexRow right-container">
+              {" "}
+              <div className="flexColumn">
+                <div>
+                  <b>Upcoming FD Maturity</b>
+                </div>
+                <div>
+                  <div className="flexRow">
+                    <div className="flexColumn right-sub-container">
+                      {" "}
+                      <div className="grey-text"> Renew By</div>{" "}
+                      <div className="grey-box">
+                        <div className="black-date right-sub-container">30</div>
+                        <div className="box black-text">Oct,2023</div>
+                      </div>
+                    </div>
+                    <div className="black-text">
+                      <div className="right-sub-container">Shriram Finanace FD Plan 1</div>
+                      <div className="flexRow">
+                        {" "}
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Deposit Amt</div>
+                          <div className="black-text">Rs. 25,000</div>
+                        </div>
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Tenure</div>
+                          <div className="black-text">18 Years</div>
+                        </div>
+                        <div className="flexColumn right-sub-container">
+                          <div className="grey-text">Interest Rate</div>
+                          <div className="black-text">8.10%</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+                <div className="flexRow">
+                  <div>
+                    <input type="button" name="renew" value="Renew Now"  className="btn-blue right-sub-container" />
+                  </div>
+                  <div>
+                    <input type="button" name="compare" value="Compare other FDs" className="btn-white right-sub-container" />
+                  </div>
+                </div>
+              </div>{" "}
             </div>
           </div>
           <div className="section3">
-          <div className="sriram">
+            <div className="sriram">
               <div>
                 <ul>
                   <li>
@@ -277,7 +408,6 @@ const Home = () => {
                 </ul>
               </div>
             </div>
-     
           </div>
         </div>
       </div>
@@ -288,18 +418,39 @@ const Home = () => {
         </div>
         <div className="flexRow">
           <div className="answerdiv">
-            <div><h2> How FDs are taxed</h2></div>
-            <div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p></div>
+            <div>
+              <h2> How FDs are taxed</h2>
+            </div>
+            <div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
             <div className="readmore">Read more...</div>
           </div>
           <div className="answerdiv">
-            <div><h2> How FDs are taxed</h2></div>
-            <div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p></div>
+            <div>
+              <h2> How FDs are taxed</h2>
+            </div>
+            <div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
             <div className="readmore">Read more...</div>
           </div>
           <div className="answerdiv">
-            <div><h2> How FDs are taxed</h2></div>
-            <div><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p></div>
+            <div>
+              <h2> How FDs are taxed</h2>
+            </div>
+            <div>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry
+              </p>
+            </div>
             <div className="readmore">Read more...</div>
           </div>
         </div>
