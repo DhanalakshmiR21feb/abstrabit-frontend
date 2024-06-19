@@ -270,9 +270,9 @@ span {
   left: 10px;
 }
 .section4 {
-  top: 518px;
-  left: 1058px;
-  width: 300px;
+  top: 496px;
+  left: 950px;
+  width: 410px;
   height: 725px;
   padding: 0 3px 0;
   margin-right: 50px;
@@ -288,9 +288,9 @@ span {
   /* Layout Properties */
   top: 930px;
   left: 60px;
-  width: 822px;
+  width: 676px;
   height: 273px;
-  padding: 30px 151px;
+  padding: 20px 151px;
   /* UI Properties */
   opacity: 1;
 }
