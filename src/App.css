@@ -63,7 +63,7 @@
 }
 .fdportfolio {
   margin-left: 60px;
-  width: 398px;
+  width: 300px;
   height: 286px;
   /* margin: 0 50px 0;
   padding: 0 25px; */
@@ -88,7 +88,7 @@
 }
 .utkarsh {
   /* position: relative; */
-  width: 398px;
+  width: 300px;
   height: 202px;
   margin-left: 50px;
   /* UI Properties */
@@ -100,7 +100,7 @@
 }
 .bajaj {
   /* Layout Properties */
-  width: 398px;
+  width: 300px;
   height: 202px;
   margin-left: 50px;
   /* UI Properties */
@@ -213,7 +213,7 @@ opacity: 1;
 .sriram {
   /* Layout Properties */
   margin-left: 50px;
-  width: 398px;
+  width: 300px;
   height: 202px;
   /* UI Properties */
   background: #f4f4f4 0% 0% no-repeat padding-box;
@@ -235,7 +235,7 @@ opacity: 1;
 .mahindra {
   /* Layout Properties */
   margin-left: 50px;
-  width: 398px;
+  width: 300px;
   height: 202px;
   /* UI Properties */
   background: #ffefef 0% 0% no-repeat padding-box;
@@ -273,7 +273,7 @@ opacity: 1;
 .section4 {
   top: 518px;
   left: 1058px;
-  width: 398px;
+  width: 300px;
   height: 725px;
   padding: 0 3px 0;
   margin-right: 50px;
