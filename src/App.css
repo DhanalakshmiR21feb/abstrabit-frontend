@@ -63,7 +63,7 @@
 }
 .fdportfolio {
   margin-left: 60px;
-  width: 398px;
+  width: 300px;
   height: 286px;
   /* margin: 0 50px 0;
   padding: 0 25px; */
@@ -88,7 +88,7 @@
 }
 .utkarsh {
   /* position: relative; */
-  width: 398px;
+  width: 300px;
   height: 202px;
   margin-left: 50px;
   /* UI Properties */
@@ -100,7 +100,7 @@
 }
 .bajaj {
   /* Layout Properties */
-  width: 398px;
+  width: 300px;
   height: 202px;
   margin-left: 50px;
   /* UI Properties */
@@ -112,7 +112,7 @@
 }
 span {
   align-items: center;
-  color:black;
+  color: black;
 }
 .flex-space {
   display: flex;
@@ -134,7 +134,6 @@ ul li {
   letter-spacing: 0px;
   color: #1a1b1e;
   opacity: 1;
-  
 }
 .grey-text {
   text-align: left;
@@ -173,7 +172,7 @@ ul li {
   opacity: 0.91;
 }
 
-.bajaj-div{
+.bajaj-div {
   width: 181px;
   height: 35px;
   margin: 10px;
@@ -182,7 +181,7 @@ ul li {
   border-radius: 5px;
   opacity: 0.91;
 }
-.sriram-div{
+.sriram-div {
   width: 181px;
   height: 35px;
   margin: 10px;
@@ -191,7 +190,7 @@ ul li {
   border-radius: 5px;
   opacity: 0.91;
 }
-.mahindra-div{
+.mahindra-div {
   width: 181px;
   height: 35px;
   margin: 10px;
@@ -200,20 +199,20 @@ ul li {
   border-radius: 5px;
   opacity: 0.91;
 }
-span{
+span {
   width: 145px;
-height: 16px;
-/* UI Properties */
-text-align: left;
-font: normal normal normal 14px/17px Apercu Pro;
-letter-spacing: 0px;
-color: #1A1B1E;
-opacity: 1;
+  height: 16px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal normal 14px/17px Apercu Pro;
+  letter-spacing: 0px;
+  color: #1a1b1e;
+  opacity: 1;
 }
 .sriram {
   /* Layout Properties */
   margin-left: 50px;
-  width: 398px;
+  width: 300px;
   height: 202px;
   /* UI Properties */
   background: #f4f4f4 0% 0% no-repeat padding-box;
@@ -235,7 +234,7 @@ opacity: 1;
 .mahindra {
   /* Layout Properties */
   margin-left: 50px;
-  width: 398px;
+  width: 300px;
   height: 202px;
   /* UI Properties */
   background: #ffefef 0% 0% no-repeat padding-box;
@@ -273,7 +272,7 @@ opacity: 1;
 .section4 {
   top: 518px;
   left: 1058px;
-  width: 398px;
+  width: 300px;
   height: 725px;
   padding: 0 3px 0;
   margin-right: 50px;
@@ -343,77 +342,76 @@ opacity: 1;
   background: #000000 0% 0% no-repeat padding-box;
   opacity: 1;
 }
-.rightNav-div{
+.rightNav-div {
   width: 352px;
-height: 183px;
-/* UI Properties */
-opacity: 1;
+  height: 183px;
+  /* UI Properties */
+  opacity: 1;
 }
-.answerdiv{
-  text-align: left;padding:20px;
-}
-.readmore{
+.answerdiv {
   text-align: left;
-text-decoration: underline;
-font: normal normal normal 14px/17px Apercu Pro;
-letter-spacing: 0px;
-color: #3B39D9;
-opacity: 1;
+  padding: 20px;
 }
-.date{
-
-width: 76px;
-height: 66px;
-/* UI Properties */
-background: #1A1B1E 0% 0% no-repeat padding-box;
-opacity: 0.05;
+.readmore {
+  text-align: left;
+  text-decoration: underline;
+  font: normal normal normal 14px/17px Apercu Pro;
+  letter-spacing: 0px;
+  color: #3b39d9;
+  opacity: 1;
 }
-.day{
+.date {
+  width: 76px;
+  height: 66px;
+  /* UI Properties */
+  background: #1a1b1e 0% 0% no-repeat padding-box;
+  opacity: 0.05;
+}
+.day {
   width: 47px;
-height: 48px;
-/* UI Properties */
-text-align: left;
-font: normal normal bold 40px/50px Apercu Pro;
-letter-spacing: 0px;
-color: #1A1B1E;
-opacity: 1;
+  height: 48px;
+  /* UI Properties */
+  text-align: left;
+  font: normal normal bold 40px/50px Apercu Pro;
+  letter-spacing: 0px;
+  color: #1a1b1e;
+  opacity: 1;
 }
-.btn-blue{
-  width: 170px;
-height: 42px;
-/* UI Properties */
-background: #3B39D9 0% 0% no-repeat padding-box;
-box-shadow: 0px 5px 5px #0000000D;
-border-radius: 5px;
-opacity: 1;
-}
-.btn-white{
+.btn-blue {
   width: 170px;
   height: 42px;
   /* UI Properties */
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 5px 5px #0000000D;
-  border: 1px solid #3B39D9;
+  background: #3b39d9 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
   border-radius: 5px;
   opacity: 1;
-
 }
-.right-container{
-  margin:10px;
+.btn-white {
+  width: 170px;
+  height: 42px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 5px #0000000d;
+  border: 1px solid #3b39d9;
+  border-radius: 5px;
+  opacity: 1;
+}
+.right-container {
+  margin: 10px;
   line-spacing: 20px;
 }
-.right-sub-container{
-margin:10px;
+.right-sub-container {
+  margin: 10px;
 }
-.grey-box{
+.grey-box {
   width: 90px;
-height: 66px;
-/* UI Properties */
-background:#F1EFEF;
-/* opacity: 0.05; */
-text-align: center;
+  height: 66px;
+  /* UI Properties */
+  background: #f1efef;
+  /* opacity: 0.05; */
+  text-align: center;
 }
-.black-date{
+.black-date {
   width: 49px;
   height: 48px;
   /* UI Properties */
@@ -423,15 +421,14 @@ text-align: center;
   /* color: #1A1B1E; */
   /* opacity: 1; */
 }
-.box{
+.box {
   width: 90px;
   height: 19px;
   /* UI Properties */
-  background: #CE5151;
+  background: #ce5151;
   opacity: 1;
   color: black;
-
 }
-input[type=button]:hover{
+input[type="button"]:hover {
   cursor: pointer;
 }
