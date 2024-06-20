@@ -9,14 +9,14 @@
 .Navbar ul {
   list-style: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 0;
   padding: 0;
 }
 
 .Navbar ul li {
-  margin: 10px 5px;
+  margin: 10px 30px;
 }
 .flexstart {
   display: flex;

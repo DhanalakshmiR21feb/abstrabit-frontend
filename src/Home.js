@@ -8,6 +8,7 @@ import bajaj_tick from "./bajaj_tick.png";
 import mahindra_tick from "./mahindra_tick.png";
 import utkarsh_tick from "./utkarsh_tick.png";
 import sriram_tick from "./sriram_tick.png";
+import PieChart from './PieChart';
 import { Pie } from "react-chartjs-2";
 import { Chart as ChartJS, ArcElement, Tooltip, Legend } from "chart.js";
 import TimeLineChart from "./FDMaturityTimeline";
@@ -63,10 +64,9 @@ const Home = () => {
           <div className="fdportfolio">
             <div className="flexRow">
               {" "}
-              <div>
+              <div className="flexRow">
                 <h3>Your FD Portfolio </h3>
-              </div>
-              <div>
+ 
                 <select className="grey-text dropDown">
                   <option value="0">Deposit Amt</option>
                 </select>
@@ -76,16 +76,18 @@ const Home = () => {
               {" "}
               <div className="chart">
                 {" "}
-                <Pie data={data} options={options} />
+                {/* <Pie data={data} options={options} /> */}
+                <PieChart />
               </div>
             </div>
           </div>
           <div className="fdmaturity">
-            <div className="flexRow">
+            {/* <div className="flexRow"> */}
               {/* <div><h3>FD Maturity Timeline</h3></div> */}
               <div>
                 <TimeLineChart />
-              </div>
+      
+              {/* </div> */}
             </div>
           </div>
         </div>
@@ -327,7 +329,7 @@ const Home = () => {
               </div>{" "}
             </div>
           </div>
-          <div className="section3">
+          <div className="section2">
             <div className="sriram">
               <div>
                 <ul>
